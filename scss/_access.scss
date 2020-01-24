@@ -1,0 +1,23 @@
+.access{
+    height: 680px;
+    // background-color: pink;
+    .section-title{
+        padding-top: 0;
+    }
+    iframe{
+        transform: translateX(500px);
+        position: sticky;
+        z-index: 10;
+    }
+    .access-content{
+        width: 980px;
+        height: 310px;
+        background-color:#800000;
+        transform: translateY(-220px);
+        p{
+            padding-top: 150px;
+            padding-left:55px;
+            line-height: 40px;
+        }
+    }
+}

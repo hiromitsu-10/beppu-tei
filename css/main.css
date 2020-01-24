@@ -1,0 +1,271 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+nav, ul, li {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+a:visited {
+  color: inherti;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input, select {
+  vertical-align: middle;
+}
+
+/*# sourceMappingURL=reset.css.map */
+body {
+  color: white;
+  background-color: black;
+}
+
+.vertical {
+  writing-mode: vertical-rl;
+}
+
+.section-title {
+  font-size: 36px;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.first-v {
+  height: 700px;
+  position: relative;
+}
+.first-v h3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 78px;
+  height: 252px;
+  background: linear-gradient(#800000, #1f1d1d);
+  text-align: center;
+  line-height: 78px;
+  writing-mode: vertical-rl;
+  letter-spacing: 5px;
+  border: 1px solid white;
+}
+.first-v .main-title {
+  writing-mode: vertical-rl;
+  padding-left: 210px;
+  padding-top: 150px;
+  line-height: 50px;
+  position: relative;
+}
+.first-v .main-title h1 {
+  font-size: 40px;
+}
+.first-v img {
+  position: absolute;
+  padding-left: 280px;
+  transform: translateY(-100px);
+}
+.first-v .first-v_content {
+  width: 400px;
+  padding-left: 220px;
+  padding-top: 100px;
+  line-height: 40px;
+  position: relative;
+}
+.first-v .red {
+  position: absolute;
+  background-color: #800000;
+  height: 585px;
+  width: 775px;
+  right: 0;
+}
+
+.commit {
+  height: 775px;
+  width: 85%;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 70px;
+}
+.commit .commit-content {
+  position: absolute;
+  bottom: 0;
+  left: 120px;
+  width: 80%;
+  height: 400px;
+  background-color: #800000;
+}
+.commit .commit-content p {
+  padding-top: 220px;
+  text-align: center;
+  line-height: 45px;
+}
+.commit .commit-content span {
+  font-size: 25px;
+}
+.commit .slide-container {
+  position: sticky;
+  width: 65%;
+  height: 40%;
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: 0 0 30px #707070;
+  z-index: 10;
+}
+
+.slide-container .slide-imgs {
+  position: relative;
+}
+.slide-container .slide-imgs .slide-item {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 2s;
+}
+.slide-container .slide-imgs .slide-item.active {
+  opacity: 1;
+}
+
+.menu {
+  height: 1100px;
+  width: 85%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.menu p {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.access {
+  height: 680px;
+}
+.access .section-title {
+  padding-top: 0;
+}
+.access iframe {
+  transform: translateX(500px);
+  position: sticky;
+  z-index: 10;
+}
+.access .access-content {
+  width: 980px;
+  height: 310px;
+  background-color: #800000;
+  transform: translateY(-220px);
+}
+.access .access-content p {
+  padding-top: 150px;
+  padding-left: 55px;
+  line-height: 40px;
+}
+
+footer {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 70px;
+  background-color: black;
+  border-top: 1px solid white;
+}
+footer p {
+  padding-top: 68px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=main.css.map */

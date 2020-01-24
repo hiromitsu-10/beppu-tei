@@ -1,0 +1,57 @@
+.first-v{
+    height: 700px;
+    // background-color: skyblue;
+    position: relative;
+    h3{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 78px;
+        height: 252px;
+        background:linear-gradient(#800000, rgb(31, 29, 29) );
+        text-align: center;
+        line-height: 78px;
+        writing-mode: vertical-rl;
+        letter-spacing: 5px;
+        border: 1px solid white;
+    }
+    .main-title{
+        writing-mode: vertical-rl;
+        padding-left: 210px;
+        padding-top: 150px;
+        line-height: 50px;
+        position: relative;
+        h1{
+            font-size: 40px;
+        }
+    }
+    img{
+        position: absolute;
+        padding-left: 280px;
+        transform: translateY(-100px);
+        // height: 20%;
+        // width: auto;
+        // padding-left: 220px;
+    }
+    .first-v_content{
+        width: 400px;
+        padding-left: 220px;
+        padding-top: 100px;
+        // transform: translate(300px, -250px);
+        line-height: 40px;
+        position: relative;
+    }
+    .red{
+        position: absolute;
+        background-color: #800000;
+        height: 585px;
+        width: 775px;
+        right: 0;
+    }
+}
+
+
+
+
+
+
